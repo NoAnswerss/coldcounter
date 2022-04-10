@@ -1,5 +1,10 @@
-function fourtytwo() {
-    console.log(42)
-}
+let countEl = document.getElementById("count-el")
+console.log(countEl)
 
-fourtytwo()
+let count = 0
+
+function increment() {
+    count = count + 1
+    countEl.innerText = count
+    console.log(count)
+}
